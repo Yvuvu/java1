@@ -1,0 +1,212 @@
+#tete{
+    display: flex;
+}
+#nav ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+} 
+.menu{
+    display: flex;
+    position: relative;
+    right: -10%;
+
+}
+.logo{
+    /* width:100%; */
+    max-width: 10%;
+    height: auto;
+}
+.menu li{
+    margin-right: 15px;
+}
+.menu li:hover{
+    margin-right: 15px;
+}
+.recherche{
+    display:flex;
+    position:relative;
+    left:45%;
+    height: 20px;
+}
+button{
+    background-color: blue;
+    border-radius: 0px 5px 5px 0px;
+    border:none;
+}
+a{
+    text-decoration: none;
+}
+.sousmenu{
+    display: none;
+    position: absolute;
+}
+.menuderoulant:hover ul{
+    display:block;
+    background-color:rgba(39, 76, 151, 0.1);
+}
+.sousmenu li:hover a{
+    background-image: radial-gradient(circle at center, white, green);
+    text-decoration: underline;
+}
+article p{
+ text-align: justify;
+    margin-top:45px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 0px;
+    font-size: 32px;
+    background-color: white;
+}
+#rouge{
+    color: rgb(219, 7, 7);
+}
+#jaune{
+    color:yellow;
+}
+#orange{
+    color:rgb(248, 86, 27) ;
+}
+#violet{
+    color:rgb(160, 12, 160);
+}
+#vert{
+    color:green;
+}
+div{
+    display: block;
+} 
+.ruban{ 
+    position: relative;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-right: 25%;
+    margin-left: 25%;
+    z-index: 1;
+}
+.promo{ 
+    position: relative;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 48%;
+}
+.contenaire{ 
+    position: relative;
+    display: inline-block; 
+    justify-content: space-between;
+}
+.texte1{ 
+    position: absolute;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:-150px;
+    margin-left:27%;
+    z-index: 2;
+}
+.texte2{ 
+    position: absolute;
+    color:maroon;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:-115px;
+    margin-left:26%;
+    z-index:2;
+}
+.texte3{ 
+    position: absolute;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:-110px;
+    margin-left:26%;
+}
+.texte4{ 
+    position: absolute;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:-150px;
+    margin-left:26%;
+}
+.texte5{
+    position: absolute;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:-135px;
+    margin-left:26%;
+}
+.opacite{
+    z-index: 50;
+}
+.opacite:hover .ruban{
+    opacity: 0.6;
+}
+/* -----------------PAGE HISTORIQUE SIMPLON-------------------------------------- */
+body{
+    font-family: "Berlin Sans FB", sans-serif;
+    margin: 50px;
+}
+.histoire{
+    width:160px;
+    background-color: rgb(223, 13, 13);
+}
+P{
+    text-align: center;
+    background-color: #ccc;
+    font-family: "Berlin Sans FB", sans-serif;
+    font-size: 32px;
+}
+.statistique{
+    width:180px;
+    background-color: rgb(223, 13, 13);
+}
+.contain{
+    display: flex;
+}
+div p{
+    position: relative;
+    width:50%;
+    padding:10px;
+}
+h1>p{
+    text-align: justify;
+}
+.imagestat1{
+    position:relative;
+    margin:auto;
+    width:100%;
+    max-width: 30%;
+    height: auto;
+}
+.imagestat2{
+    position:relative;
+    margin:auto;
+    width:100%;
+    max-width: 20%;
+    height: auto;
+}
+.imagestat3{
+    position:relative;
+    margin:auto;
+    width:50%;
+    height: 15%;
+}
+footer{
+    height: 150px;
+    background-image:linear-gradient(to right,white, maroon) ;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+/* @media only screen */
+
+
+
+

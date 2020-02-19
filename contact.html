@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+</head>
+<body>
+    <header>
+        <img src="images/logo1.jpg" alt="logo de Simplon" class="logo"/>
+    </header>
+    <div>
+        <h1>Contactez-nous</h1>
+        <p>Une question, une suggestion, une envie ?</p>
+    </div>
+    <form>
+        <fieldset>
+        <legend> vos coordonnées: </legend>
+         <label >Nom :</label> 
+            <input type="Nom" name="nom"pattern="[^0-9]" title="name" required>
+            <label>Prénom (s) :</label>
+            <input type="Prénom" name="prénom"pattern="[^0-9]" title="name" required>
+           <section> Genre</section>
+             <input type="radio" name="CSS" value="nom"/>
+             <label for="oui" class="inline">Homme</label>
+             <input type="radio" name="CSS"/>
+             <label for="non" class="inline">Femme</label>
+            <label for="utilise"> ville/ Burkina :  </label> 
+        <select name="utilise" id="utilise" required="required">
+            <option disabled="disabled" selected="selected">Choisissez...</option>
+            <option> Banfora</option>
+            <option> Bobo-Dioulasso</option>
+            <option> Dédougou</option>
+            <option> Fada</option>
+            <option> Koudougou</option>
+            <option> Gaoua</option>
+            <option> Manga</option>
+            <option> Ouhigouya</option>
+            <option> Tenkodogo</option>
+            <option> Autre</option>
+        </select>
+        </fieldset>
+        <fieldset>
+         <legend> Nous vous ecoutons :</legend>
+          <label>Votre email :</label>
+           <input type="email" name="email" size="20" 
+           maxlength="40" value="email" id="email"/>
+           <label for="utilise">Sujet: </label>
+        <select name="utilise" id="utilise">
+                <option disabled="disabled" selected="selected">Selectionnez un sujet</option>
+                <option> En savoir plus sur nous</option>
+                <option> Se faire former</option>
+                <option>  question d'ordre général</option>
+                <option> Devenir partenaire de Simplon Burkina</option>
+                <option> Autre</option>
+        </select>
+        
+          <label for="comments">Votre message:</label>
+           <textarea name="comments" id="comments" cols="20" rows="4">
+           </textarea>
+        </fieldset>
+         <div>
+            <input type="submit" value="Envoyer" />
+            <input type="reset" value="Annuler" />
+         </div>
+        </form>
+        <footer>
+            <div>
+                <strong> Suivez-nous &nbsp; </strong>
+                <a href="https://www.facebook.com/Simplon.BF"/>
+                    <img src="images/facebook.jpg" />
+                </a>
+                <hr/>
+            </div>
+            <ul>
+                <li><strong>Nos partenaires <br/></strong></li>
+                <li>Agence Universitaire de la Francophonie </li>
+                <li>Société générale</li>
+                <li>Université de Ouagadougou</li>
+                <li>Orange</li>    
+            </ul>    
+        </footer>
+</body>
+</html>
