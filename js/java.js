@@ -16,15 +16,21 @@
 //         }
 //     }
 // }
-findText(node,text){
-    if(node.childNodes.legnth==0){
-        if(node.textContent.indexOf(text)==-1)
-            return[];
-        return [node];
-    }
-    var matchingNodes = new Array();
-    for(child in node.childNodes){
-        matchingNodes.concat(findText(child, text));
-    }
-    return matchingNodes;
-}
+// findText(node,text){
+//     if(node.childNodes.legnth==0){
+//         if(node.textContent.indexOf(text)==-1)
+//             return[];
+//         return [node];
+//     }
+//     var matchingNodes = new Array();
+//     for(child in node.childNodes){
+//         matchingNodes.concat(findText(child, text));
+//     }
+//     return matchingNodes;
+// }
+var barre=document.getElementsByClassName("recherche");
+var contenu=document.getElementsByClassName("corps");
+var nombre=document.getElementById("occurrence");
+var motTrouve=document.getElementById("resultat");
+var effacer=document.getElementById("annuler");
+var text=contenu.innerHTML;
