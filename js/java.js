@@ -28,9 +28,9 @@
 //     }
 //     return matchingNodes;
 // }
-var barre=document.getElementsByClassName("recherche");
-var contenu=document.getElementsByClassName("corps");
-var nombre=document.getElementById("occurrence");
-var motTrouve=document.getElementById("resultat");
-var effacer=document.getElementById("annuler");
-var text=contenu.innerHTML;
+// var barre=document.getElementsByClassName("recherche");
+// var contenu=document.getElementsByClassName("corps");
+// var nombre=document.getElementById("occurrence");
+// var motTrouve=document.getElementById("resultat");
+// var effacer=document.getElementById("annuler");
+// var text=contenu.innerHTML;
